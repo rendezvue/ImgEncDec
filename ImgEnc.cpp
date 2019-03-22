@@ -1,4 +1,4 @@
-#inlude "ImgEnc.h"
+#include "ImgEnc.h"
 
 CImgEnc::CImgEnc()
 {

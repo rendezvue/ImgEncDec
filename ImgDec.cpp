@@ -1,4 +1,4 @@
-#inlude "ImgDec.h"
+#include "ImgDec.h"
 
 CImgDec::CImgDec()
 {
