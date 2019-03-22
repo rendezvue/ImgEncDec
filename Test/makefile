@@ -14,7 +14,7 @@ LIBS = -lpthread -ldl -lm -lrt -lc -lstdc++ -lboost_system -lboost_thread -lboos
 SRCDIRS		= .
 
 #SRCS = $(foreach dir, . $(SRCDIRS),$(wildcard $(dir)/*.cpp))
-SRCS = test.cpp
+SRCS = test.cpp ../ImgEnc.cpp ../ImgDec.cpp
 OBJS = $(SRCS:.cpp=.o)
 
 all: $(TARGET)

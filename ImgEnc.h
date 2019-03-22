@@ -4,10 +4,10 @@
 
 class CImgEnc
 {
+public:
 	CImgEnc() ;
 	~CImgEnc() ;
 
-public:
 	cv::Mat Encoding(cv::Mat image) ;	
 } ;
 
