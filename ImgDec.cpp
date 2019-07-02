@@ -14,7 +14,7 @@ cv::Mat CImgDec::Decoding(cv::Mat image, const bool display)
 
 	if( !image.empty() )
 	{
-		cv::cvtColor(image, rgb888, cv::COLOR_YUV2BGR_I420  ) ;
+        cv::cvtColor(image, rgb888, cv::COLOR_YUV2RGB_I420  ) ;
 	}
 
 	if( display && !rgb888.empty() )
